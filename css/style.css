@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+main{
+    max-width: 70%;
+    margin: auto;
+}
+
+h1{
+    color: #e53170;
+    text-align: center;
+    margin: 30px;
+    font-family: 'Concert One', cursive;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+p{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+span, em, a{
+    padding: 2px;
+    margin-left: 10px;
+    display: block;
+}
+
+.profilo_1, .profilo_2, .profilo_3, .profilo_4, .profilo_5, .profilo_6{
+    border: 1px solid black;
+    height: 100px;
+    width: 300px;
+    float: left;
+}
+
+.profilo_1 img, .profilo_2 img, .profilo_3 img, .profilo_4 img, .profilo_5 img, .profilo_6 img{
+    height: 100px;
+    float: left;
+}
+
+.distanzia{
+    padding: 20px;
+    width: calc(100% / 3);
+    float: left;
+}
