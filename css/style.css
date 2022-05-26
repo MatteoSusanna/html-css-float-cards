@@ -13,13 +13,13 @@
 main{
     max-width: 70%;
     margin: auto;
+    font-family: 'Concert One', cursive;
 }
 
 h1{
     color: #e53170;
     text-align: center;
     margin: 30px;
-    font-family: 'Concert One', cursive;
     font-weight: bold;
     font-size: 60px;
 }
@@ -33,12 +33,16 @@ p{
     color: #25ccf2;
 }
 
-span, em, a{
-    padding: 4px;
+span, a{
+    padding: 1px;
     margin-left: 110px;
     margin-top: 4px;
     color: white;
     display: block;
+}
+
+span:nth-child(2){
+    font-weight: bold;
 }
 
 .profilo{
